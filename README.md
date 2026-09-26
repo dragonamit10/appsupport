@@ -1,6 +1,8 @@
-# Cook Money Support
+# App Support
 
-Public support and privacy pages for the Cook Money app.
+Public support and privacy pages for apps by Amit Kumar Srivastava.
 
-- Support: https://dragonamit10.github.io/appsupport/
-- Privacy: https://dragonamit10.github.io/appsupport/privacy.html
+## Cook Money
+
+- Support: https://dragonamit10.github.io/appsupport/cookmoney/
+- Privacy: https://dragonamit10.github.io/appsupport/cookmoney/privacy.html
