@@ -49,19 +49,6 @@ h1 { margin: 4px 0 8px; font-size: clamp(2.6rem, 8vw, 4.6rem); line-height: 1.1;
 
 .app-card:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(5, 54, 47, .14); }
 .app-card img { border-radius: 20px; box-shadow: 0 8px 20px rgba(5, 54, 47, .18); }
-.app-mark {
-    display: grid;
-    flex: 0 0 88px;
-    width: 88px;
-    height: 88px;
-    place-items: center;
-    color: white;
-    background: linear-gradient(145deg, #4f46e5, #2563eb);
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(37, 99, 235, .22);
-    font-size: 2.5rem;
-    font-weight: 800;
-}
 .app-card strong, .app-card small { display: block; }
 .app-card strong { font-size: 1.3rem; }
 .app-card small { margin-top: 3px; color: var(--muted); }

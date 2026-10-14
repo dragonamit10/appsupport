@@ -24,18 +24,12 @@ main {
 }
 
 .hero { display: flex; align-items: center; gap: 24px; }
-.app-mark {
-    display: grid;
+.hero img {
     flex: 0 0 112px;
     width: 112px;
     height: 112px;
-    place-items: center;
-    color: white;
-    background: linear-gradient(145deg, #4f46e5, #2563eb);
     border-radius: 26px;
     box-shadow: 0 12px 32px rgba(37, 99, 235, .24);
-    font-size: 3.2rem;
-    font-weight: 800;
 }
 
 h1, h2 { line-height: 1.2; }
@@ -64,7 +58,7 @@ footer { padding: 24px 4px; color: var(--muted); }
 @media (max-width: 560px) {
     main { padding-top: 32px; }
     .hero { align-items: flex-start; }
-    .app-mark { flex-basis: 76px; width: 76px; height: 76px; border-radius: 18px; font-size: 2.2rem; }
+    .hero img { flex-basis: 76px; width: 76px; height: 76px; border-radius: 18px; }
     section { padding: 22px; }
 }
 
