@@ -1,0 +1,74 @@
+:root {
+    color-scheme: light dark;
+    --accent: #4f46e5;
+    --accent-dark: #3730a3;
+    --surface: rgba(255, 255, 255, 0.84);
+    --text: #17172b;
+    --muted: #5d6075;
+    --border: rgba(79, 70, 229, 0.18);
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--text);
+    background: linear-gradient(150deg, #eef2ff 0%, #fafaff 48%, #e0f2fe 100%) fixed;
+}
+
+main {
+    width: min(820px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 56px 0 36px;
+}
+
+.hero { display: flex; align-items: center; gap: 24px; }
+.app-mark {
+    display: grid;
+    flex: 0 0 112px;
+    width: 112px;
+    height: 112px;
+    place-items: center;
+    color: white;
+    background: linear-gradient(145deg, #4f46e5, #2563eb);
+    border-radius: 26px;
+    box-shadow: 0 12px 32px rgba(37, 99, 235, .24);
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+h1, h2 { line-height: 1.2; }
+h1 { margin: 4px 0 8px; font-size: clamp(2.3rem, 8vw, 4.2rem); }
+h2 { margin-top: 0; color: var(--accent-dark); }
+.eyebrow { margin: 0; color: var(--accent-dark); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.lead { margin: 0; color: var(--muted); font-size: 1.15rem; }
+
+section {
+    margin-top: 28px;
+    padding: 28px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(49, 46, 129, .07);
+}
+
+dl div { margin: 12px 0; }
+dt { font-weight: 700; }
+dd { margin: 2px 0 0; }
+a { color: var(--accent-dark); font-weight: 600; }
+.button { display: inline-block; padding: 10px 16px; color: white; background: var(--accent); border-radius: 12px; text-decoration: none; }
+.note { color: var(--muted); }
+footer { padding: 24px 4px; color: var(--muted); }
+
+@media (max-width: 560px) {
+    main { padding-top: 32px; }
+    .hero { align-items: flex-start; }
+    .app-mark { flex-basis: 76px; width: 76px; height: 76px; border-radius: 18px; font-size: 2.2rem; }
+    section { padding: 22px; }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root { --surface: rgba(20, 21, 42, .9); --text: #f2f2ff; --muted: #c2c4d7; --border: rgba(129, 140, 248, .24); --accent-dark: #a5b4fc; }
+    body { background: linear-gradient(150deg, #0f1025 0%, #171936 55%, #0b1d31 100%) fixed; }
+}

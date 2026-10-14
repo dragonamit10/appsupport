@@ -11,3 +11,8 @@ Public support and privacy pages for apps by Amit Kumar Srivastava.
 
 - Support: https://dragonamit10.github.io/appsupport/ShriRamShalaka/
 - Privacy: https://dragonamit10.github.io/appsupport/ShriRamShalaka/privacy.html
+
+## Seekora
+
+- Support: https://dragonamit10.github.io/appsupport/seekora/
+- Privacy: https://dragonamit10.github.io/appsupport/seekora/privacy.html
